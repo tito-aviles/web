@@ -1,0 +1,98 @@
+body {
+    background: radial-gradient(ellipse at center, rgba(179,220,237,1) 0%, rgba(179,220,237,1) 8%, rgba(41,184,229,1) 29%, rgba(188,224,238,1) 62%, rgba(188,224,238,1) 88%, rgba(188,224,238,1) 100%);
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.formulario {
+    max-width: 50%;
+    border: 3px solid black;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+}
+
+.seccion1 img {
+    width: 290px;
+    height: 250px;
+}
+
+.seccion3 img {
+    width: 300px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.main-footer {
+    background-color: rgb(219, 219, 219);
+}
+
+.main-footer p {
+    color: black;
+    position: relative;
+    top: 12px;
+}
+
+.main-footer img {
+    width: 20px;
+}
+
+.main-footer li {
+    display: inline-flex;
+    list-style: none;
+}
+
+.main-footer li a {
+    text-decoration: none;
+    display: inline-flex;
+    color: black;
+}
+
+.main-footer ul li {
+    padding: 10px;
+    position: relative;
+    left: 270px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 760px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .main-footer p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-footer ul li {
+        position: relative;
+        left: 50px;  
+    }
+
+    button {
+        text-align: center;
+    }
+}
